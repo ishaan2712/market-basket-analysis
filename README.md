@@ -19,3 +19,16 @@ Cleaning steps performed:
 - Removed duplicate records
 
 This step ensures high-quality transactional data before association rule mining.
+## Step 2: Transaction Encoding
+
+Cleaned retail transactions were grouped by invoice number to create
+product baskets. These baskets were transformed into a one-hot encoded
+matrix using transaction encoding techniques.
+
+Steps performed:
+- Grouped products by transaction ID
+- Removed single-item transactions
+- Applied one-hot encoding for Apriori compatibility
+
+This step prepares the dataset for frequent itemset mining and
+association rule analysis.
