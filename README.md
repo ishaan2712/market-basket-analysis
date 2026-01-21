@@ -54,3 +54,14 @@ Steps performed:
 - Identified strong cross-selling opportunities
 
 This step enables actionable product recommendation insights.
+## Step 5: Visualization & Insights
+
+Association rules were visualized using confidence–lift scatter plots
+and product association network graphs.
+
+Key outcomes:
+- Identified strong cross-selling relationships
+- Visualized product clusters for merchandising insights
+- Translated rule metrics into business recommendations
+
+This step enables intuitive interpretation of market basket patterns.
