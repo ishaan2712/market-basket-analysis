@@ -43,3 +43,14 @@ Steps performed:
 - Analyzed itemset sizes and frequency distribution
 
 This step reveals commonly purchased product combinations.
+## Step 4: Association Rule Mining
+
+Association rules were generated from frequent itemsets to identify
+strong relationships between products using confidence and lift metrics.
+
+Steps performed:
+- Generated association rules from frequent itemsets
+- Filtered rules using lift and confidence thresholds
+- Identified strong cross-selling opportunities
+
+This step enables actionable product recommendation insights.
