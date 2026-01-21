@@ -32,3 +32,14 @@ Steps performed:
 
 This step prepares the dataset for frequent itemset mining and
 association rule analysis.
+## Step 3: Frequent Itemset Mining (Apriori)
+
+The Apriori algorithm was applied to the one-hot encoded transaction
+data to identify frequent itemsets based on minimum support thresholds.
+
+Steps performed:
+- Applied Apriori algorithm to encoded transactions
+- Extracted frequent itemsets with support values
+- Analyzed itemset sizes and frequency distribution
+
+This step reveals commonly purchased product combinations.
